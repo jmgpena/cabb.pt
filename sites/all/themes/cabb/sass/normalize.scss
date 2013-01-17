@@ -108,6 +108,7 @@ audio:not([controls]) {
   font-style: normal;
 }
 */
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
 /*
  * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
@@ -155,6 +156,7 @@ body {
  */
 
 a:link {
+  color: #4d4d4d;
 }
 
 a:visited {

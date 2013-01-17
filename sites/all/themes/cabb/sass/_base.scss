@@ -68,19 +68,26 @@ $tahoma:          Tahoma, Verdana, "DejaVu Sans", sans-serif;
 $helvetica:       Helvetica, Arial, "Nimbus Sans L", sans-serif;
 $arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
 
+$ptsans:          'PT Sans', sans-serif;
+
 // For an explanation of why "sans-serif" is at the end of this list, see
 // http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 
 // Now create some variables for the font stacks we want to use on this site.
-$base-font-family: $verdana; // The font family set on the html element.
-$font-body:        $verdana;
+$base-font-family: $ptsans; // The font family set on the html element.
+$font-body:        $ptsans;
 $font-monospace:   $courier;
-
 
 //
 // Colors, etc.
 //
+$orange:  #ffac29;
+$yellow:  #fffc30;
+$green:   #79ff30;
+$green2:  #beff30;
+$gray:    #4d4d4d;
+$gray2:   #c4c4c4;
 
 // The amount lists, blockquotes and comments are indented.
 $indent-amount: 30px;
