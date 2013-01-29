@@ -27,18 +27,25 @@ ul.nice-menu {
   li {
     border-right: 1px solid $gray2;
     float: left; /* LTR */
-    background-color: $green;
+    background-color: $main-menu-bg;
   }
   li.last {
-    border-right: 0;
+    // border-right: 0;
   }
 }
 
 ul.nice-menu a {
   padding: 0.3em 5px 0.3em 5px;
+  color: $main-menu-fg;
+  text-decoration: none;
+  
+  :visited {
+    color: $main-menu-fg;
+  }
 }
 
 ul.nice-menu span {
+  color: $main-menu-fg;
   display: block;
   padding: 0.3em 5px 0.3em 5px;
 }
@@ -156,18 +163,18 @@ ul.nice-menu-down .menuparent span {
 }
 
 ul.nice-menu-down li.menuparent {
-  background: $green url(arrow-down.png) right center no-repeat; /* LTR */
+  background: $main-menu-bg url(arrow-down.png) right center no-repeat; /* LTR */
 }
 
 ul.nice-menu-down li.menuparent:hover {
-  background: $yellow url(arrow-down.png) right center no-repeat; /* LTR */
+  background: $main-menu-hover url(arrow-down.png) right center no-repeat; /* LTR */
 }
 
 ul.nice-menu-down li li.menuparent {
-  background: $green url(arrow-right.png) right center no-repeat; /* LTR */
+  background: $main-menu-bg url(arrow-right.png) right center no-repeat; /* LTR */
 }
 
 ul.nice-menu-down li li.menuparent:hover {
-  background: $yellow url(arrow-right.png) right center no-repeat; /* LTR */
+  background: $main-menu-hover url(arrow-right.png) right center no-repeat; /* LTR */
 }
 
