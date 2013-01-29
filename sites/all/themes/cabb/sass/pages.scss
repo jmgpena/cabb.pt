@@ -64,19 +64,21 @@ body {
 
 #site-name { /* The name of the website */
   margin: 0;
-  font-size: 2em;
+  font-size: 2.5em;
   line-height: 1.5em;
-
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+  color: $main-menu-bg;
+    
   a:link,
   a:visited {
-    color: #ff9430;
     text-decoration: none;
-    font-style: italic;
+    color: $main-menu-bg;
   }
 
   a:hover,
   a:focus {
-    text-decoration: underline;
   }
 }
 

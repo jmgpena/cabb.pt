@@ -25,7 +25,7 @@ ul.nice-menu ul {
 
 ul.nice-menu {
   li {
-    border-right: 1px solid $gray2;
+    border-right: 1px solid $main-menu-separator;
     float: left; /* LTR */
     background-color: $main-menu-bg;
   }
@@ -42,6 +42,11 @@ ul.nice-menu a {
   :visited {
     color: $main-menu-fg;
   }
+
+  .active {
+    color: $main-menu-fg;
+    font-weight: bold;
+  }
 }
 
 ul.nice-menu span {
@@ -54,12 +59,13 @@ ul.nice-menu ul {
   top: 1.8em;
   left: -1px; /* LTR */
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid $main-menu-separator;
   margin-right: 0; /* LTR */
 }
 
 ul.nice-menu ul li {
   width: 12.5em;
+  border-bottom: 1px solid $main-menu-separator;
 }
 
 /******************************
@@ -129,6 +135,7 @@ ul.nice-menu-left a, ul.nice-menu-left ul a {
 ul.nice-menu-down {
   float: left; /* LTR */
   border: 0;
+  width: 100%;
 }
 
 ul.nice-menu-down li {

@@ -79,8 +79,7 @@
     position: absolute;
     top: 0;
     /* Move the navbar up inside #main's padding. */
-    height: 1.9em;
-    background-color: darkgreen;
+    height: 1.95em;
     width: 100%;
   }
 }

@@ -69,11 +69,16 @@ li a.active {
   list-style-type: none;
   list-style-image: none;
 }
+/* line 73, ../sass/navigation.scss */
+#navigation a.active {
+  color: #fffc30;
+  font-weight: bold;
+}
 
 /*
  * Main menu and Secondary menu links
  */
-/* line 84, ../sass/navigation.scss */
+/* line 89, ../sass/navigation.scss */
 #secondary-menu {
   float: right;
 }

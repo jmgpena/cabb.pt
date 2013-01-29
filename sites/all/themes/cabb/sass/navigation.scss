@@ -69,6 +69,11 @@ li a.active {
       list-style-image: none;
     }
   }
+
+  a.active {
+    color: $yellow;
+    font-weight: bold;
+  }
 }
 
 .region-navigation {
