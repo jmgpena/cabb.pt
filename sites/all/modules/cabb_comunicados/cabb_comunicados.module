@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the cabb_comunicados feature.
+ */
+
+include_once 'cabb_comunicados.features.inc';

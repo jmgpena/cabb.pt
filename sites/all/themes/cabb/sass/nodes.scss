@@ -62,3 +62,15 @@
     @include unpublished-div;
   }
 }
+
+.node-comunicado {
+  .field-name-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+  }
+
+  .field-name-body p {
+    margin: 0;
+  }
+}

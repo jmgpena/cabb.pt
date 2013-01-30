@@ -24,6 +24,26 @@
 .field-FIELDNAME { /* Underscores in field name are replaced with dashes. */
 }
 
+.field-name-field-image {
+  float: left;
+  margin: 0 0.5em 0.5em 0;
+  
+  img {
+    border: 1px solid Silver;
+    padding: 2px;
+  }
+}
+
+.field-name-field-categoria {
+  float: right;
+  a {
+    background-color: Green;
+    color: White;
+    text-decoration: none;
+    padding: 0 4px;
+    margin-left: 4px;
+  }
+}
 
 /*
  * If you don't use the Fences module, that's fine. Really. I think. Just use
