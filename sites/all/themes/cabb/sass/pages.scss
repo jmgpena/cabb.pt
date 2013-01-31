@@ -46,6 +46,7 @@ body {
  */
 
 #header {
+  background-image:url('../images/header2.png')
 }
 
 #logo { /* Wrapping link for logo */
@@ -69,12 +70,12 @@ body {
   text-decoration: none;
   font-style: italic;
   font-weight: bold;
-  color: $main-menu-bg;
+  color: GreenYellow;
     
   a:link,
   a:visited {
     text-decoration: none;
-    color: $main-menu-bg;
+    color: GreenYellow;
   }
 
   a:hover,
@@ -85,10 +86,12 @@ body {
 #site-slogan { /* The slogan (or tagline) of a website */
   margin: 0;
   font-size: 1em;
+  color: Silver;
 }
 
 .region-header { /* Wrapper for any blocks placed in the header region */
-  clear: both; /* Clear the logo */
+  //clear: both; /* Clear the logo */
+  float: right;
 }
 
 /*
@@ -225,6 +228,9 @@ span.field-label { /* The inline field label used by the Fences module */
  */
 
 .region-sidebar-second {
+  padding-top: 10px;
+  background-color: PaleGoldenRod;
+  @include roundcorners(5px);
 }
 
 /*
@@ -232,6 +238,12 @@ span.field-label { /* The inline field label used by the Fences module */
  */
 
 #footer {
+  background-color: #333;
+  color: Silver;
+  a {
+    text-decoration: underline;
+    &:visited { color: Silver }
+  }
 }
 
 /*

@@ -101,64 +101,71 @@
 /* line 71, ../sass/blocks.scss */
 #block-search-form {
   /* "Search form" block */
+  margin-bottom: 0.5em;
 }
 
-/* line 74, ../sass/blocks.scss */
+/* line 75, ../sass/blocks.scss */
+#block-on-the-web-0 {
+  margin-bottom: 0.5em;
+  text-align: right;
+}
+
+/* line 80, ../sass/blocks.scss */
 #block-shortcut-shortcuts {
   /* "Shortcuts" block */
 }
 
-/* line 77, ../sass/blocks.scss */
+/* line 83, ../sass/blocks.scss */
 #block-statistics-popular {
   /* "Popular content" block */
 }
 
-/* line 80, ../sass/blocks.scss */
+/* line 86, ../sass/blocks.scss */
 #block-system-main-menu {
   /* "Main menu" block */
 }
 
-/* line 83, ../sass/blocks.scss */
+/* line 89, ../sass/blocks.scss */
 #block-system-management {
   /* "Management" block for Drupal management menu */
 }
 
-/* line 86, ../sass/blocks.scss */
+/* line 92, ../sass/blocks.scss */
 #block-system-navigation {
   /* "Navigation" block for Drupal navigation menu */
 }
 
-/* line 89, ../sass/blocks.scss */
+/* line 95, ../sass/blocks.scss */
 #block-system-user-menu {
   /* "User menu" block for Drupal user menu */
 }
 
-/* line 92, ../sass/blocks.scss */
+/* line 98, ../sass/blocks.scss */
 #block-system-help {
   /* "System help" block */
 }
 
-/* line 95, ../sass/blocks.scss */
+/* line 101, ../sass/blocks.scss */
 #block-system-main {
   /* "Main page content" block */
 }
 
-/* line 98, ../sass/blocks.scss */
+/* line 104, ../sass/blocks.scss */
 #block-system-powered-by {
   /* "Powered by Drupal" block */
 }
 
-/* line 101, ../sass/blocks.scss */
+/* line 107, ../sass/blocks.scss */
 #block-user-login {
   /* "User login form" block */
 }
 
-/* line 104, ../sass/blocks.scss */
+/* line 110, ../sass/blocks.scss */
 #block-user-new {
   /* "Who's new" block for a list of the newest users */
 }
 
-/* line 107, ../sass/blocks.scss */
+/* line 113, ../sass/blocks.scss */
 #block-user-online {
   /* "Who's online" block for a list of the online users */
 }
