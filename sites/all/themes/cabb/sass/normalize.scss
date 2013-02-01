@@ -156,14 +156,17 @@ body {
  */
 
 a:link {
-  color: #4d4d4d;
+  color: $text;
+  text-decoration: underline;
 }
 
 a:visited {
+  color: Gray;
 }
 
 a:hover,
 a:focus {
+  color: DarkGreen;
 }
 
 a:active {
@@ -210,18 +213,21 @@ h1 {
   /* Sets 1 unit of vertical rhythm on the top and bottom margins. */
   @include leader(1, $h1-font-size);
   @include trailer(1, $h1-font-size);
+  color: $heading-font-color;
 }
 
 h2 {
   @include adjust-font-size-to( $h2-font-size );
   @include leader(1, $h2-font-size);
   @include trailer(1, $h2-font-size);
+  color: $heading-font-color;
 }
 
 h3 {
   @include adjust-font-size-to( $h3-font-size );
   @include leader(1, $h3-font-size);
   @include trailer(1, $h3-font-size);
+  color: $heading-font-color;
 }
 
 h4 {

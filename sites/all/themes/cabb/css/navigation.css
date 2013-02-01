@@ -38,14 +38,15 @@ li a.active {
 #navigation {
   /* overflow: hidden; */
   /* Sometimes you want to prevent overlapping with main div. */
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 10;
+  padding-right: 10;
+  border-bottom: 1px solid silver;
 }
-/* line 52, ../sass/navigation.scss */
+/* line 53, ../sass/navigation.scss */
 #navigation .block {
   margin-bottom: 0;
 }
-/* line 57, ../sass/navigation.scss */
+/* line 58, ../sass/navigation.scss */
 #navigation .block-menu .block-title,
 #navigation .block-menu-block .block-title {
   position: absolute !important;
@@ -54,7 +55,7 @@ li a.active {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 62, ../sass/navigation.scss */
+/* line 63, ../sass/navigation.scss */
 #navigation ul.links,
 #navigation ul.menu {
   /* Menu block links */
@@ -62,7 +63,7 @@ li a.active {
   padding: 0;
   text-align: left;
 }
-/* line 67, ../sass/navigation.scss */
+/* line 68, ../sass/navigation.scss */
 #navigation ul.links li,
 #navigation ul.menu li {
   /* A simple method to get navigation links to appear in one line. */
@@ -71,10 +72,9 @@ li a.active {
   list-style-type: none;
   list-style-image: none;
 }
-/* line 75, ../sass/navigation.scss */
+/* line 76, ../sass/navigation.scss */
 #navigation a.active {
-  color: #fffc30;
-  font-weight: bold;
+  color: #000;
 }
 
 /*

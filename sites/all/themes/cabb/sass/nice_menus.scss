@@ -25,8 +25,10 @@ ul.nice-menu ul {
 }
 
 ul.nice-menu {
+  border-bottom: 1px solid black;
+  
   li {
-    border-right: 1px solid $main-menu-separator;
+    //border-right: 1px solid $main-menu-separator;
     float: left; /* LTR */
     background-color: $main-menu-bg;
   }
@@ -39,34 +41,41 @@ ul.nice-menu a {
   padding: 0.3em 5px 0.3em 5px;
   color: $main-menu-fg;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
   
   :visited {
     color: $main-menu-fg;
   }
 
+  &:hover {
+    text-decoration: underline;
+  }
+
   .active {
     color: $main-menu-fg;
-    font-weight: bold;
   }
 }
 
 ul.nice-menu span {
   color: $main-menu-fg;
+  font-weight: bold;
   display: block;
   padding: 0.3em 5px 0.3em 5px;
+  font-size: 1.2em;
 }
 
 ul.nice-menu ul {
   top: 1.8em;
   left: -1px; /* LTR */
-  border: 0;
-  border-top: 1px solid $main-menu-separator;
+  border: 1px solid $layout_border;
   margin-right: 0; /* LTR */
+  @include roundcorners(5px);
 }
 
 ul.nice-menu ul li {
-  width: 12.5em;
-  border-bottom: 1px solid $main-menu-separator;
+  // width: 12.5em;
+  white-space: nowrap;
 }
 
 /******************************
@@ -140,9 +149,9 @@ ul.nice-menu-down {
 }
 
 ul.nice-menu-down li {
-  width: 9em;
+  // width: 9em;
   /* border-top: 1px solid #ccc; */
-  text-align: center;
+  //text-align: center;
 }
 
 ul.nice-menu-down li li {
@@ -155,6 +164,12 @@ ul.nice-menu-down ul {
 
 ul.nice-menu-down ul li {
   clear: both;
+  
+  a,span { 
+    font-size: 1em;
+    padding: 0.1em 5px 0.1em 5px;
+    font-weight: normal;
+  }
 }
 
 ul.nice-menu-down li ul li ul {
