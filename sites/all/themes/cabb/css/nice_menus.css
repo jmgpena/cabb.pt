@@ -17,7 +17,6 @@ ul.nice-menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: white;
   /* border-top: 1px solid #ccc; */
 }
 
@@ -29,7 +28,6 @@ ul.nice-menu {
 ul.nice-menu li {
   float: left;
   /* LTR */
-  background-color: white;
 }
 
 /* line 40, ../sass/nice_menus.scss */
@@ -64,6 +62,7 @@ ul.nice-menu span {
 
 /* line 68, ../sass/nice_menus.scss */
 ul.nice-menu ul {
+  background: rgba(255, 255, 255, 0.7);
   top: 1.8em;
   left: -1px;
   /* LTR */
@@ -77,7 +76,7 @@ ul.nice-menu ul {
   border-radius: 5px;
 }
 
-/* line 76, ../sass/nice_menus.scss */
+/* line 77, ../sass/nice_menus.scss */
 ul.nice-menu ul li {
   white-space: nowrap;
 }
@@ -86,67 +85,67 @@ ul.nice-menu ul li {
  VERTICAL (left/right) menus
 ******************************/
 /* This is the default width of all vertical menus. */
-/* line 87, ../sass/nice_menus.scss */
+/* line 88, ../sass/nice_menus.scss */
 ul.nice-menu-right, ul.nice-menu-left,
 ul.nice-menu-right li, ul.nice-menu-left li {
   width: 12.5em;
 }
 
 /* VERTICAL menus where submenus pop RIGHT (default). */
-/* line 92, ../sass/nice_menus.scss */
+/* line 93, ../sass/nice_menus.scss */
 ul.nice-menu-right ul {
   width: 12.5em;
   left: 12.5em;
   top: -1px;
 }
 
-/* line 98, ../sass/nice_menus.scss */
+/* line 99, ../sass/nice_menus.scss */
 ul.nice-menu-right ul ul {
   width: 12.5em;
   left: 12.5em;
   top: -1px;
 }
 
-/* line 105, ../sass/nice_menus.scss */
+/* line 106, ../sass/nice_menus.scss */
 ul.nice-menu-right li.menuparent,
 ul.nice-menu-right li li.menuparent {
   background: #eeeeee url(arrow-right.png) right center no-repeat;
 }
 
-/* line 110, ../sass/nice_menus.scss */
+/* line 111, ../sass/nice_menus.scss */
 ul.nice-menu-right li.menuparent:hover,
 ul.nice-menu-right li li.menuparent:hover {
   background: #cccccc url(arrow-right.png) right center no-repeat;
 }
 
 /* VERTICAL menus where submenus pop LEFT. */
-/* line 115, ../sass/nice_menus.scss */
+/* line 116, ../sass/nice_menus.scss */
 ul.nice-menu-left li ul {
   width: 12.5em;
   left: -12.65em;
   top: -1px;
 }
 
-/* line 121, ../sass/nice_menus.scss */
+/* line 122, ../sass/nice_menus.scss */
 ul.nice-menu-left li ul li ul {
   width: 12.5em;
   left: -12.65em;
   top: -1px;
 }
 
-/* line 128, ../sass/nice_menus.scss */
+/* line 129, ../sass/nice_menus.scss */
 ul.nice-menu-left li.menuparent,
 ul.nice-menu-left li li.menuparent {
   background: #eeeeee url(arrow-left.png) left center no-repeat;
 }
 
-/* line 133, ../sass/nice_menus.scss */
+/* line 134, ../sass/nice_menus.scss */
 ul.nice-menu-left li.menuparent:hover,
 ul.nice-menu-left li li.menuparent:hover {
   background: #cccccc url(arrow-left.png) left center no-repeat;
 }
 
-/* line 137, ../sass/nice_menus.scss */
+/* line 138, ../sass/nice_menus.scss */
 ul.nice-menu-left a, ul.nice-menu-left ul a {
   padding-left: 14px;
 }
@@ -154,7 +153,7 @@ ul.nice-menu-left a, ul.nice-menu-left ul a {
 /******************************
  HORIZONTAL (down) menus
 ******************************/
-/* line 145, ../sass/nice_menus.scss */
+/* line 146, ../sass/nice_menus.scss */
 ul.nice-menu-down {
   float: left;
   /* LTR */
@@ -162,72 +161,72 @@ ul.nice-menu-down {
   width: 100%;
 }
 
-/* line 151, ../sass/nice_menus.scss */
+/* line 152, ../sass/nice_menus.scss */
 ul.nice-menu-down li {
   /* border-top: 1px solid #ccc; */
 }
 
-/* line 157, ../sass/nice_menus.scss */
+/* line 158, ../sass/nice_menus.scss */
 ul.nice-menu-down li li {
   border-top: 0;
 }
 
-/* line 161, ../sass/nice_menus.scss */
+/* line 162, ../sass/nice_menus.scss */
 ul.nice-menu-down ul {
   left: 0;
   /* LTR */
 }
 
-/* line 165, ../sass/nice_menus.scss */
+/* line 166, ../sass/nice_menus.scss */
 ul.nice-menu-down ul li {
   clear: both;
 }
-/* line 168, ../sass/nice_menus.scss */
+/* line 169, ../sass/nice_menus.scss */
 ul.nice-menu-down ul li a, ul.nice-menu-down ul li span {
   font-size: 1em;
   padding: 0.1em 5px 0.1em 5px;
   font-weight: normal;
 }
 
-/* line 175, ../sass/nice_menus.scss */
+/* line 176, ../sass/nice_menus.scss */
 ul.nice-menu-down li ul li ul {
   left: 12.5em;
   /* LTR */
   top: -1px;
 }
 
-/* line 180, ../sass/nice_menus.scss */
+/* line 181, ../sass/nice_menus.scss */
 ul.nice-menu-down .menuparent a {
   padding-right: 15px;
   /* LTR */
 }
 
-/* line 184, ../sass/nice_menus.scss */
+/* line 185, ../sass/nice_menus.scss */
 ul.nice-menu-down .menuparent span {
   padding-right: 15px;
   /* LTR */
 }
 
-/* line 188, ../sass/nice_menus.scss */
+/* line 189, ../sass/nice_menus.scss */
 ul.nice-menu-down li.menuparent {
-  background: white url(arrow-down.png) right center no-repeat;
+  background: none url(arrow-down.png) right center no-repeat;
   /* LTR */
 }
 
-/* line 192, ../sass/nice_menus.scss */
+/* line 193, ../sass/nice_menus.scss */
 ul.nice-menu-down li.menuparent:hover {
-  background: white url(arrow-down.png) right center no-repeat;
+  background: none url(arrow-down.png) right center no-repeat;
   /* LTR */
 }
 
-/* line 196, ../sass/nice_menus.scss */
+/* line 197, ../sass/nice_menus.scss */
 ul.nice-menu-down li li.menuparent {
-  background: white url(arrow-right.png) right center no-repeat;
+  background: none url(arrow-right.png) right center no-repeat;
   /* LTR */
 }
 
-/* line 200, ../sass/nice_menus.scss */
+/* line 201, ../sass/nice_menus.scss */
 ul.nice-menu-down li li.menuparent:hover {
-  background: white url(arrow-right.png) right center no-repeat;
+  background: none url(arrow-right.png) right center no-repeat;
   /* LTR */
 }

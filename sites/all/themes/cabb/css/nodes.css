@@ -101,3 +101,12 @@
 .node-comunicado .field-name-body p {
   margin: 0;
 }
+/* line 77, ../sass/nodes.scss */
+.node-comunicado .node-teaser:after {
+  height: 2px;
+  background: Green;
+  width: 25%;
+  display: block;
+  margin: 0px auto;
+  content: "batatas";
+}

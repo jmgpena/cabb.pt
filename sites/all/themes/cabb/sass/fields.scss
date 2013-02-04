@@ -43,11 +43,22 @@
   li { float: left; }
 
   a {
-    background-color: Green;
-    color: White;
+    background-color: $tags-bg;
+    color: $tags-fg;
     text-decoration: none;
     padding: 0 4px;
     margin-left: 4px;
+  }
+}
+
+.field-name-title {
+  a {
+    text-decoration: none;
+    color: $title-fg;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

@@ -73,4 +73,13 @@
   .field-name-body p {
     margin: 0;
   }
+
+  & .node-teaser:after {
+    height:2px;
+    background:Green;
+    width:25%;
+    display:block;
+    margin:0px auto;
+    content:"batatas";
+  }
 }
