@@ -41,6 +41,8 @@
 }
 
 .node-teaser { /* A node displayed as teaser */
+  border-bottom: 1px dashed $green2;
+  margin-bottom: 8px;
 }
 
 /*
@@ -63,7 +65,8 @@
   }
 }
 
-.node-comunicado {
+.node-comunicado.node-teaser {
+
   .field-name-title {
     font-size: 1.5em;
     font-weight: bold;
@@ -72,14 +75,5 @@
 
   .field-name-body p {
     margin: 0;
-  }
-
-  & .node-teaser:after {
-    height:2px;
-    background:Green;
-    width:25%;
-    display:block;
-    margin:0px auto;
-    content:"batatas";
   }
 }

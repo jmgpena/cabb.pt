@@ -123,7 +123,7 @@ body.admin-menu #main {
  */
 /* line 129, ../sass/pages.scss */
 #content {
-  border-right: 1px solid silver;
+  border-right: 1px solid #c4c4c4;
 }
 
 /* line 136, ../sass/pages.scss */
@@ -289,7 +289,7 @@ span.field-label {
  */
 /* line 259, ../sass/pages.scss */
 #footer {
-  border-top: 1px solid silver;
+  border-top: 1px solid #c4c4c4;
   font-size: 0.8em;
 }
 /* line 263, ../sass/pages.scss */

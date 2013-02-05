@@ -84,19 +84,19 @@ $font-monospace:   $courier;
 //
 $orange:  #ffac29;
 $yellow:  #fffc30;
-$green:   #79ff30;
-$green2:  #beff30;
+$green:   DarkGreen;
+$green2:  GreenYellow;
 $gray:    #4d4d4d;
 $gray2:   #c4c4c4;
 $text:    #333;
 $main-menu-bg: White;
-$main-menu-fg: #333;
+$main-menu-fg: $text;
 $main-menu-hover: White;
-$main-menu-separator: #4d4d4d;
-$layout-border: Silver;
+$main-menu-separator: $gray;
+$layout-border: $gray2;
 $heading-font-color: DarkGreen;
-$title-fg: Green;
-$tags-bg: Green;
+$title-fg: $green;
+$tags-bg: $green;
 $tags-fg: White;
 
 // The amount lists, blockquotes and comments are indented.

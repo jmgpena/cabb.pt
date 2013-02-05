@@ -42,7 +42,7 @@ ul.nice-menu a {
   color: $main-menu-fg;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.188em;
   
   :visited {
     color: $main-menu-fg;
@@ -62,7 +62,7 @@ ul.nice-menu span {
   font-weight: bold;
   display: block;
   padding: 0.3em 5px 0.3em 5px;
-  font-size: 1.2em;
+  font-size: 1.188em;
 }
 
 ul.nice-menu ul {
@@ -147,6 +147,8 @@ ul.nice-menu-down {
   float: left; /* LTR */
   border: 0;
   width: 100%;
+  border-bottom: 2px solid $text;
+  margin-bottom: 4px;
 }
 
 ul.nice-menu-down li {

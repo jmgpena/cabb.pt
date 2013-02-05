@@ -27,9 +27,13 @@
 .field-name-field-image {
   float: left;
   margin: 0 0.5em 0.5em 0;
+
+  a {
+    font-size: 0.5em;
+  }
   
   img {
-    border: 1px solid Silver;
+    border: 1px solid $green;
     padding: 2px;
   }
 }

@@ -53,6 +53,8 @@
 /* line 43, ../sass/nodes.scss */
 .node-teaser {
   /* A node displayed as teaser */
+  border-bottom: 1px dashed greenyellow;
+  margin-bottom: 8px;
 }
 
 /*
@@ -60,23 +62,23 @@
  * it is. If you create a new content type called "my-custom-type", it will
  * receive a "node-my-custom-type" class.
  */
-/* line 52, ../sass/nodes.scss */
+/* line 54, ../sass/nodes.scss */
 .node-page {
   /* Page content node */
 }
 
-/* line 55, ../sass/nodes.scss */
+/* line 57, ../sass/nodes.scss */
 .node-article {
   /* Article content node */
 }
 
-/* line 58, ../sass/nodes.scss */
+/* line 60, ../sass/nodes.scss */
 .node-unpublished {
   /* Unpublished nodes */
   /* background-color: #fff4f4; */
   /* Drupal core uses a #fff4f4 background */
 }
-/* line 61, ../sass/nodes.scss */
+/* line 63, ../sass/nodes.scss */
 .node-unpublished p.unpublished {
   /* The word "Unpublished" displayed underneath the content. */
   height: 0;
@@ -91,22 +93,13 @@
   word-wrap: break-word;
 }
 
-/* line 67, ../sass/nodes.scss */
-.node-comunicado .field-name-title {
+/* line 70, ../sass/nodes.scss */
+.node-comunicado.node-teaser .field-name-title {
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 0.25em;
 }
-/* line 73, ../sass/nodes.scss */
-.node-comunicado .field-name-body p {
+/* line 76, ../sass/nodes.scss */
+.node-comunicado.node-teaser .field-name-body p {
   margin: 0;
-}
-/* line 77, ../sass/nodes.scss */
-.node-comunicado .node-teaser:after {
-  height: 2px;
-  background: Green;
-  width: 25%;
-  display: block;
-  margin: 0px auto;
-  content: "batatas";
 }
