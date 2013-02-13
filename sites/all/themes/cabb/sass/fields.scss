@@ -26,18 +26,55 @@
 
 .field-name-field-image {
   float: left;
-  margin: 0 0.5em 0.25em 0;
+  margin: 0 0.5em 0.5em 0;
 
-  a {
-    display: block;
-    font-size: 1px;
-    line-height: 1px;
-  }
-  
   img {
     border: 1px solid $green;
     padding: 2px;
   }
+}
+
+.view-mode-teaser {
+  .field-name-field-image {
+    margin: 0 0.5em 0.25em 0;
+
+    a {
+      display: block;
+      font-size: 1px;
+      line-height: 1px;
+    }
+  }
+
+  .field-name-title {
+    a {
+      text-decoration: none;
+      color: $title-fg;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .field-type-text-with-summary {
+    height: 132px;
+    overflow: hidden;
+    p { 
+      font-size: 0.938em; 
+      line-height: 1.5em;
+    }
+  }
+
+  .field-name-node-link {
+    float: right;
+  }
+
+}
+
+.field-name-field-links {
+  float: left;
+  font-weight: bold;
+  margin-right: 12px;
 }
 
 .field-name-field-categoria {
@@ -55,36 +92,6 @@
     padding: 0 4px;
     margin-left: 4px;
   }
-}
-
-.field-name-title {
-  a {
-    text-decoration: none;
-    color: $title-fg;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
-.field-type-text-with-summary {
-  height: 132px;
-  overflow: hidden;
-  p { 
-    font-size: 0.938em; 
-    line-height: 1.5em;
-  }
-}
-
-.field-name-node-link {
-  float: right;
-}
-
-.field-name-field-links {
-  float: left;
-  font-weight: bold;
-  margin-right: 12px;
 }
 
 /*

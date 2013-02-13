@@ -26,32 +26,67 @@
 /* line 27, ../sass/fields.scss */
 .field-name-field-image {
   float: left;
-  margin: 0 0.5em 0.25em 0;
+  margin: 0 0.5em 0.5em 0;
 }
 /* line 31, ../sass/fields.scss */
-.field-name-field-image a {
-  display: block;
-  font-size: 1px;
-  line-height: 1px;
-}
-/* line 37, ../sass/fields.scss */
 .field-name-field-image img {
   border: 1px solid darkgreen;
   padding: 2px;
 }
 
-/* line 43, ../sass/fields.scss */
+/* line 38, ../sass/fields.scss */
+.view-mode-teaser .field-name-field-image {
+  margin: 0 0.5em 0.25em 0;
+}
+/* line 41, ../sass/fields.scss */
+.view-mode-teaser .field-name-field-image a {
+  display: block;
+  font-size: 1px;
+  line-height: 1px;
+}
+/* line 49, ../sass/fields.scss */
+.view-mode-teaser .field-name-title a {
+  text-decoration: none;
+  color: darkgreen;
+}
+/* line 53, ../sass/fields.scss */
+.view-mode-teaser .field-name-title a:hover {
+  text-decoration: underline;
+}
+/* line 59, ../sass/fields.scss */
+.view-mode-teaser .field-type-text-with-summary {
+  height: 132px;
+  overflow: hidden;
+}
+/* line 62, ../sass/fields.scss */
+.view-mode-teaser .field-type-text-with-summary p {
+  font-size: 0.938em;
+  line-height: 1.5em;
+}
+/* line 68, ../sass/fields.scss */
+.view-mode-teaser .field-name-node-link {
+  float: right;
+}
+
+/* line 74, ../sass/fields.scss */
+.field-name-field-links {
+  float: left;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+/* line 80, ../sass/fields.scss */
 .field-name-field-categoria {
   clear: both;
   float: right;
   list-style: none;
   margin: 0.3em 0;
 }
-/* line 49, ../sass/fields.scss */
+/* line 86, ../sass/fields.scss */
 .field-name-field-categoria li {
   float: left;
 }
-/* line 51, ../sass/fields.scss */
+/* line 88, ../sass/fields.scss */
 .field-name-field-categoria a {
   background-color: darkgreen;
   color: white;
@@ -60,44 +95,11 @@
   margin-left: 4px;
 }
 
-/* line 61, ../sass/fields.scss */
-.field-name-title a {
-  text-decoration: none;
-  color: darkgreen;
-}
-/* line 65, ../sass/fields.scss */
-.field-name-title a:hover {
-  text-decoration: underline;
-}
-
-/* line 71, ../sass/fields.scss */
-.field-type-text-with-summary {
-  height: 132px;
-  overflow: hidden;
-}
-/* line 74, ../sass/fields.scss */
-.field-type-text-with-summary p {
-  font-size: 0.938em;
-  line-height: 1.5em;
-}
-
-/* line 80, ../sass/fields.scss */
-.field-name-node-link {
-  float: right;
-}
-
-/* line 84, ../sass/fields.scss */
-.field-name-field-links {
-  float: left;
-  font-weight: bold;
-  margin-right: 12px;
-}
-
 /*
  * If you don't use the Fences module, that's fine. Really. I think. Just use
  * these selectors instead:
  */
-/* line 95, ../sass/fields.scss */
+/* line 102, ../sass/fields.scss */
 .field {
   /* Wrapper for any field. */
 }
@@ -108,7 +110,7 @@
 /*
  * Field types (Contrib)
  */
-/* line 145, ../sass/fields.scss */
+/* line 152, ../sass/fields.scss */
 .field-type-datetime {
   /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */
 }
@@ -116,7 +118,7 @@
 /*
  * Named fields
  */
-/* line 167, ../sass/fields.scss */
+/* line 174, ../sass/fields.scss */
 .field-name-field-FIELDNAME {
   /* Underscores in field name are replaced with dashes. */
 }
