@@ -92,6 +92,11 @@ $zen-auto-include-item-base: false;
 }
 
 @media all and (min-width: 480px) and (max-width: 959px) {
+  
+  #name-and-slogan {
+    display: none;
+  }
+
   /*
    * Use 3 grid columns for smaller screens.
    */
