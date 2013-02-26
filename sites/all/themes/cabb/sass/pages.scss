@@ -51,7 +51,8 @@ body {
   position: fixed;
   padding-top: 10px;
   background-image: url('../images/header-bg.png');
-  width: $zen-grid-width;
+  background-position: center center;
+  width: 100%; // $zen-grid-width;
   max-width: 1200px;
   z-index: 100;
 }

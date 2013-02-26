@@ -82,13 +82,15 @@
   clear: both;
   float: right;
   list-style: none;
+  height: 24px;
   margin: 0.3em 0;
 }
-/* line 88, ../sass/fields.scss */
+/* line 89, ../sass/fields.scss */
 .field-name-field-categoria li {
   float: left;
+  vertical-align: top;
 }
-/* line 90, ../sass/fields.scss */
+/* line 94, ../sass/fields.scss */
 .field-name-field-categoria a {
   background-color: darkgreen;
   color: white;
@@ -101,7 +103,7 @@
  * If you don't use the Fences module, that's fine. Really. I think. Just use
  * these selectors instead:
  */
-/* line 104, ../sass/fields.scss */
+/* line 108, ../sass/fields.scss */
 .field {
   /* Wrapper for any field. */
 }
@@ -112,7 +114,7 @@
 /*
  * Field types (Contrib)
  */
-/* line 154, ../sass/fields.scss */
+/* line 158, ../sass/fields.scss */
 .field-type-datetime {
   /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */
 }
@@ -120,7 +122,7 @@
 /*
  * Named fields
  */
-/* line 176, ../sass/fields.scss */
+/* line 180, ../sass/fields.scss */
 .field-name-field-FIELDNAME {
   /* Underscores in field name are replaced with dashes. */
 }
